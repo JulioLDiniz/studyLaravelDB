@@ -12,76 +12,76 @@
 */
 
 Route::get('/', function () {
-    $slides = [
-      (object)[
-        'titulo'=>'Título Imagem',
-        'descricao'=>'Descrição Imagem',
-        'url'=>'#link',
-        'imagem'=>'http://st.automobilemag.com/uploads/sites/11/2016/02/2017-Chevrolet-Camaro-1LE-homepage.jpg'
+  $slides = [
+    (object)[
+      'titulo'=>'Título Imagem',
+      'descricao'=>'Descrição Imagem',
+      'url'=>'#link',
+      'imagem'=>'http://st.automobilemag.com/uploads/sites/11/2016/02/2017-Chevrolet-Camaro-1LE-homepage.jpg'
 
-      ]
-    ];
-
-    $carros = [
-      (object)[
-        'titulo' => 'Nome do Carro',
-        'descricao' => 'Descrição do Carro',
-        'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
-        'valor' => 'R$150.000,00',
-        'url' => url('detalhe')
-      ],
-      (object)[
-        'titulo' => 'Nome do Carro',
-        'descricao' => 'Descrição do Carro',
-        'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
-        'valor' => 'R$150.000,00',
-        'url' => url('detalhe')
-      ],
-      (object)[
-        'titulo' => 'Nome do Carro',
-        'descricao' => 'Descrição do Carro',
-        'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
-        'valor' => 'R$150.000,00',
-        'url' => url('detalhe')
-      ],
-      (object)[
-        'titulo' => 'Nome do Carro',
-        'descricao' => 'Descrição do Carro',
-        'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
-        'valor' => 'R$150.000,00',
-        'url' => url('detalhe')
-      ],
-      (object)[
-        'titulo' => 'Nome do Carro',
-        'descricao' => 'Descrição do Carro',
-        'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
-        'valor' => 'R$150.000,00',
-        'url' => url('detalhe')
-      ],
-      (object)[
-        'titulo' => 'Nome do Carro',
-        'descricao' => 'Descrição do Carro',
-        'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
-        'valor' => 'R$150.000,00',
-        'url' => url('detalhe')
-      ],
-      (object)[
-        'titulo' => 'Nome do Carro',
-        'descricao' => 'Descrição do Carro',
-        'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
-        'valor' => 'R$150.000,00',
-        'url' => url('detalhe')
-      ],
-      (object)[
-        'titulo' => 'Nome do Carro',
-        'descricao' => 'Descrição do Carro',
-        'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
-        'valor' => 'R$150.000,00',
-        'url' => url('detalhe')
-      ]
+    ]
   ];
 
-    return view('site.home',compact('slides','carros'));
+  $carros = [
+    (object)[
+      'titulo' => 'Nome do Carro',
+      'descricao' => 'Descrição do Carro',
+      'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
+      'valor' => 'R$150.000,00',
+      'url' => url('detalhe')
+    ],
+    (object)[
+      'titulo' => 'Nome do Carro',
+      'descricao' => 'Descrição do Carro',
+      'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
+      'valor' => 'R$150.000,00',
+      'url' => url('detalhe')
+    ],
+    (object)[
+      'titulo' => 'Nome do Carro',
+      'descricao' => 'Descrição do Carro',
+      'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
+      'valor' => 'R$150.000,00',
+      'url' => url('detalhe')
+    ],
+    (object)[
+      'titulo' => 'Nome do Carro',
+      'descricao' => 'Descrição do Carro',
+      'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
+      'valor' => 'R$150.000,00',
+      'url' => url('detalhe')
+    ],
+    (object)[
+      'titulo' => 'Nome do Carro',
+      'descricao' => 'Descrição do Carro',
+      'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
+      'valor' => 'R$150.000,00',
+      'url' => url('detalhe')
+    ],
+    (object)[
+      'titulo' => 'Nome do Carro',
+      'descricao' => 'Descrição do Carro',
+      'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
+      'valor' => 'R$150.000,00',
+      'url' => url('detalhe')
+    ],
+    (object)[
+      'titulo' => 'Nome do Carro',
+      'descricao' => 'Descrição do Carro',
+      'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
+      'valor' => 'R$150.000,00',
+      'url' => url('detalhe')
+    ],
+    (object)[
+      'titulo' => 'Nome do Carro',
+      'descricao' => 'Descrição do Carro',
+      'imagem' => 'http://o.aolcdn.com/commerce/autodata/images/USC60CHC021A021001.jpg',
+      'valor' => 'R$150.000,00',
+      'url' => url('detalhe')
+    ]
+  ];
+
+  return view('site.home',compact('slides','carros'));
 });
 
 Auth::routes();
@@ -137,11 +137,11 @@ Route::get('/db5', function(){
   ->get();
 
   //listar os tipos de um cliente em específico
-   $clienteTipo = DB::connection('mysql2')->table('db_clientes as c')
-   ->join('db_clientes_has_db_tipos as ct','c.codigo','=','ct.codigo_cliente')
-   ->join('db_tipos as t','ct.codigo_tipo','=','t.codigo')
-   ->where('c.nome','Murilo')
-   ->get();
+  $clienteTipo = DB::connection('mysql2')->table('db_clientes as c')
+  ->join('db_clientes_has_db_tipos as ct','c.codigo','=','ct.codigo_cliente')
+  ->join('db_tipos as t','ct.codigo_tipo','=','t.codigo')
+  ->where('c.nome','Murilo')
+  ->get();
 
   dd($clienteTipo);
 });
@@ -149,10 +149,22 @@ Route::get('/db5', function(){
 //retornando do model Cliente
 
 Route::get('/clientes', function(){
-    // $clientes = App\Cliente::find(1);
+    //one to many
+    // $clientes =  studyLaravelDB\Cliente::find(1);
 
     // dd($clientes->telefone);
 
-    $telefone = App\Telefone::find(1);
-    dd($telefone->cliente);
+    // $telefone = studyLaravelDB\Telefone::find(1);
+    // dd($telefone->cliente);
+
+    //many to many
+
+      $clientes =  studyLaravelDB\Cliente::find(1);
+
+      $tipos = $clientes->manyTipos;
+    
+      foreach ($tipos as $tipo) {
+        echo $tipo->titulo.'</br>';
+      }
+    
 });

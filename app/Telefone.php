@@ -1,6 +1,6 @@
 <?php
 
-namespace studyLaravelDB;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -11,7 +11,7 @@ class Telefone extends Model
     protected $primaryKey = 'codigo';
 
     public function cliente(){
-    	return $this->belongsTo('studyLaravelDB\Cliente','codigo_cliente');
+    	return $this->belongsTo('App\Cliente','codigo_cliente');
     }
     
 }

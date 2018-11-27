@@ -174,11 +174,11 @@ return [
         /*
          * Application Service Providers...
          */
-        studyLaravelDB\Providers\AppServiceProvider::class,
-        studyLaravelDB\Providers\AuthServiceProvider::class,
-        // studyLaravelDB\Providers\BroadcastServiceProvider::class,
-        studyLaravelDB\Providers\EventServiceProvider::class,
-        studyLaravelDB\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
 
     ],
 
